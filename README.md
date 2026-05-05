@@ -1,6 +1,5 @@
 # 👥 CRUD Lista de Funcionários
 
-![Badge em Desenvolvimento](http://shields.io)
 
 Uma aplicação fullstack completa para gerenciamento de pessoal, permitindo criar, ler, atualizar e deletar registros em um banco de dados relacional.
 
