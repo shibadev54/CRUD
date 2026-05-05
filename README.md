@@ -20,13 +20,6 @@ O projeto foi construído utilizando as seguintes ferramentas:
 - [x] **D**elete: Remoção de registros com confirmação.
 - [x] **Interface Adaptável**: Visualização otimizada para celulares, tablets e desktops.
 
-## 📸 Demonstração
-
-<div align="center">
-  <img src="LINK_DA_SUA_IMAGEM_AQUI.png" width="400px" alt="Screenshot do Projeto">
-  <p><em>Interface principal da lista de funcionários</em></p>
-</div>
-
 ## 📥 Como executar o projeto
 
 1.  **Clone o repositório:**
