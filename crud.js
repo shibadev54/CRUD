@@ -1,19 +1,16 @@
 let usuarios = [{nomeC: "Julia", funcaoC: "contadora", salarioC:1200}];
 let container = document.getElementById("listaUsuarios");
-function render(){
-
-}
 function create() {
   let nomeC = document.getElementById("nomeC").value;
    let funcaoC = document.getElementById("funcaoC").value;
   let salarioC = document.getElementById("salarioC").value;
   let usuario = {
+    id: usuarios.length,
     nomeC,
     funcaoC,
     salarioC
   };
   usuarios.push(usuario);
- 
   container.innerHTML += `
     <div class="user">
       <p>${usuario.nomeC}</p> <p>${usuario.funcaoC}</p> <p>${usuario.salarioC}R$</p>
@@ -25,6 +22,7 @@ function create() {
   `;
 }
 function edit(){
+  console.log("edit mamado");
   usuario.nomeC=nomeC;
   usuarios.push(usuario);
   container.innerHTML=`
